@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- page title -->
+    <title>Manual da Gringa - Entrar</title>
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;500;700&display=swap" rel="stylesheet">
+    <!-- font awesome icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <!-- bootstrap library -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <!-- other css -->
+    <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+    
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-custom" id="mainNav">
+        <div class="container-fluid px-5 mx-5">
+            <!-- nav bar logo -->
+            <a class="navbar-brand" href="index.html"><img src="/img/manual_logo.png" width="110px" id="nav-logo"></a>
+        
+            <!-- navbar search form -->
+            
+            <form class="d-flex nav-search-form d.none d-sm-block" role="search">
+                <div class="input-group">
+                    <input class="form-control border-end-0 border rounded-pill" type="text" value="Busca Rápida" id="navbar-search-input">
+                    <span class="input-group-append">
+                        <button class="btn btn-outline-secondary bg-white border-start-0 border rounded-pill" type="button">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                        </button>
+                    </span>
+                </div>
+            </form>
+            
+            <!-- button for small screens -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon">
+                </span>
+            </button>
+            <!-- nav-link list -->
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">            
+                <ul class="navbar-nav d-flex ms-auto">
+                    <li class="nav-item mx-2  my-2">
+                        <a class="nav-link active text-uppercase" href="blog.html">Blog</a>
+                    </li>
+                    <li class="nav-item mx-2  my-2">
+                        <a class="nav-link text-uppercase" href="login.html">Login</a>
+                    </li>
+                    <li class="nav-item mx-2  my-2">
+                        <a class="nav-link text-uppercase" href="signup.html">Sign Up</a>
+                    </li>
+                    <li class="nav-item dropdown mx-2 my-2">
+                        <a class="nav-link dropdown-toggle text-uppercase" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Usuário
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item text-uppercase" href="user.html">Perfil</a></li>
+                            <li><a class="dropdown-item text-uppercase" href="index.html">Sair</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown mx-2  my-2">
+                        <a class="nav-link dropdown-toggle text-uppercase" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Manual da Gringa
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item text-uppercase" href="about.html">Sobre Nós</a></li>
+                            <li><a class="dropdown-item text-uppercase" href="faqs.html">Perguntas Frequentes</a></li>
+                            <li><a class="dropdown-item text-uppercase" href="contact.html">Contato</a></li>
+                            <li><a class="dropdown-item text-uppercase" href="privacy.html">Politica de privacidade</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item mx-2 d-none d-xl-block">
+                        <a href="#!" class="ms-auto">
+                            <span class="fa-stack fa-lg">
+                                <i class="fas fa-circle fa-stack-2x"></i>
+                                <i class="fab fa-github fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+                    <li class="nav-item mx-2 d-none d-xl-block">
+                        <a href="#!" class="ms-auto">
+                            <span class="fa-stack fa-lg">
+                                <i class="fas fa-circle fa-stack-2x"></i>
+                                <i class="fab fa-instagram fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+                </ul>           
+            </div>
+        </div>        
+    </nav>
+    
+    <!-- HEADER -->
+    <header class="py-5 bg-light border-bottom mb-4 big-header" style="background-image: url('/img/poonhill.jpeg');">
+        <div class="container position-relative px-4 px-lg-5">
+            <div class="row gx-4 gx-lg-5 justify-content-center">
+              <div class="col-md-10 col-lg-8 col-xl-7">
+                <div class="page-heading text-center">
+                    <br><br><br><br><br>
+                  <h1 class="fw-bolder header-h1">This is the post title</h1>
+                </div>
+              </div>
+            </div>
+          </div>
+    </header>
+
+
+<!-- ARTICLE CONTENT -->
+<section class="section-show-post py-5">
+    <article>
+      <div class="container px-2 justify-content-center">
+        <div class="row gx-4 gx-lg-5 justify-content-center">
+          <div class="col-md-8 col-lg-6 col-xl-8 px-5 bg-white rounded">
+              <h4 class="subheading mt-3">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores aliquam delectus commodi adipisci nostrum dolores, modi ipsum sit fuga, ab accusantium dicta, vitae facere? Animi magnam dolores accusamus nobis esse. Aspernatur in quos beatae sed sit reiciendis dolores obcaecati, rem quisquam distinctio enim facilis voluptate. Asperiores adipisci culpa dignissimos voluptatum?</h4>
+              <!-- META AND SHARE ICONS -->
+              <div class="d-flex justify-content-between align-items-center mt-3">
+                  <span class="meta fst-italic">Escrito por
+                    <a href="about.html" class="">Marquinhos </a>
+                    em 20/10/2010
+                  </span>
+                    <!-- Social Media Icons -->
+                    <div class="d-flex">
+                        <!-- WhatsApp -->
+                        <a href="whatsapp://send?text=post-intro - #url _external=True"
+                           class="me-3" title="Compartilhar no WhatsApp" >
+                            <i class="fab fa-whatsapp"></i>
+                        </a>
+            
+                        <!-- Facebook -->
+                        <a href="https://www.facebook.com/sharer/sharer.php?u=#"
+                           class="me-3" title="Compartilhar no Facebook" target="_blank">
+                            <i class="fab fa-facebook"></i>
+                        </a>
+            
+                        <!-- Twitter -->
+                        <a href="https://twitter.com/intent/tweet?url=#"
+                           class="me-3" title="Compartilhar no Twitter" target="_blank">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                    </div>
+                </div>
+
+              <hr class="w-80">
+              <!-- POST CONTENT -->
+              <p>
+                <img src="/img/qt.jpg" alt="" class="img-fluid rounded">
+              </p>
+              <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo maiores laborum eius asperiores nisi quam dicta provident. Dolores quidem voluptatem quas facere corrupti esse dolore, fuga totam libero aperiam non eveniet a temporibus inventore sit soluta atque, expedita voluptas sequi nesciunt laboriosam aut unde repellat. Excepturi accusantium id assumenda inventore tenetur tempora perferendis vero dolor ex, architecto minus at magnam veritatis asperiores eos, laboriosam nemo animi accusamus qui voluptatibus. Nemo neque placeat culpa est omnis! Veniam iusto assumenda repellendus, voluptate ab sunt esse, exercitationem distinctio nemo provident totam ut ipsam nostrum nulla nobis nam qui inventore officiis quidem. Nostrum velit ratione molestias beatae. Autem aliquam obcaecati numquam eius, voluptate qui amet veritatis nulla officia repudiandae in iure atque dolorum rem architecto perferendis ipsum delectus harum odio culpa tempore omnis tenetur. Ipsum error sed quis aspernatur necessitatibus? Reprehenderit, qui. Placeat quo impedit maxime officiis alias ipsa dolorum hic minima. Voluptatibus, quidem?
+              </p>
+              <p>
+                <img src="/img/asia-cover.jpg" alt="" class="img-fluid rounded">
+              </p>
+              <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolor nemo inventore tempora omnis voluptate! Eius eos eum repellendus quaerat facere. Error rerum iusto quia fugiat accusamus optio dolore fugit laboriosam, libero neque eveniet quisquam repudiandae commodi officiis qui ea, omnis ex labore. Provident explicabo natus, ipsam beatae libero error optio nisi laborum? Libero quae ut unde? Veritatis id placeat nisi vitae magni cum necessitatibus porro quisquam voluptate saepe? Eaque corporis laudantium, voluptatem quas quod nihil autem officia voluptates accusamus totam ea culpa tempore exercitationem quae obcaecati ipsam eius enim nemo porro sequi deleniti optio consequuntur placeat. Deleniti quaerat rerum porro!
+              </p>
+              <p>
+                <img src="/img/oceania-cover.jpg" alt="" class="img-fluid rounded">
+              </p>
+              <hr>
+            <!-- ONLY SHOW EDIT BUTTON IF USER ID 1 (ADMIN USER) -->
+              
+            <div class="d-flex justify-content-center mb-4">
+                <!-- edit post -->
+              <a class="btn btn-primary text-white float-right mx-2"
+                href="#">Edit Post</a>
+                <!-- ONLY SHOW DELETE BUTTON IF USER ID 1 (ADMIN USER) -->
+                <a class="btn btn-danger text-white mx-2"
+                href="#">Delete Post</a>
+            </div>
+              
+            
+            <!-- COMMENTS AREA -->
+              
+            <!-- comment form -->
+            <div class="container py-3 my-3 bg-light rounded shadow">
+                <form action="" class="form-floating">                                
+                    <div class="form-floating">
+                        <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea" style="height: 100px"></textarea>
+                        <label for="floatingTextarea">Comments</label>
+                    </div>                
+                    <br>
+                    <button type="submit" class="btn btn-custom px-5">Enviar</button>
+                </form>
+            </div>
+              
+            <!-- if not logged in -->                       
+              <div class="container my-3 py-3">
+                <div class="row d-flew justify-content-center">
+                  <h4 class="text-center index-sections">Quer comentar nos nossos posts?</h4>
+                    <p class="text-center">Faça seu login ou se registre no Manual da Gringa para participar</p>
+                  <div class="col-md-3">
+                    <a href="login.html" class="btn btn-custom" target="_blank">Entrar</a>
+                  </div>
+                  <div class="col-md-3">
+                    <a href="signup.html" class="btn btn-custom" id="comment-button" target="_blank">Inscrever-se</a>
+                  </div>
+                </div>
+            </div>
+            
+            
+            <!-- CARD WITH COMMENTS -->
+            <div class="container my-3 py-5">
+                <div class="row d-flex justify-content-center">
+                    <div class="container">
+                        <h4 class="text-center index-sections pb-3">Todos os comentários:</h4>
+                        <div class="card">
+                            <div class="card-body p-4">
+                
+                            <div class="row">
+                                <div class="col">
+                                <div class="d-flex flex-start">
+                                    <img class="rounded-circle shadow-1-strong me-3"
+                                    src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(10).webp" alt="avatar" width="65"
+                                    height="65" />
+                                    <div class="flex-grow-1 flex-shrink-1">
+                                        <div>
+                                            <div class="d-flex justify-content-between align-items-center">
+                                            <p class="mb-1">
+                                                Maria Smantha - <span class="small">10/10/2010</span>
+                                                <a href="#" class="btn btn-link text-danger delete-comment" data-comment-id="#"> Delete </a>
+                                            </p>
+                                            <a href="#!"><i class="fas fa-reply fa-xs"></i><span class="small"> reply</span></a>
+                                            </div>
+                                            <p class="small mb-0">
+                                            It is a long established fact that a reader will be distracted by
+                                            the readable content of a page.
+                                            </p>
+                                        </div>
+                
+                                        <!--<div class="d-flex flex-start mt-4">
+                                            <a class="me-3" href="#">
+                                            <img class="rounded-circle shadow-1-strong"
+                                                src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(11).webp" alt="avatar"
+                                                width="65" height="65" />
+                                            </a>
+                                            <div class="flex-grow-1 flex-shrink-1">
+                                                <div>
+                                                    <div class="d-flex justify-content-between align-items-center">
+                                                    <p class="mb-1">
+                                                        Simona Disa <span class="small">- 3 hours ago</span>
+                                                        <a href="#" class="btn btn-link text-danger delete-comment" data-comment-id="#"> Delete </a>
+                                                    </p>
+                                                    </div>
+                                                    <p class="small mb-0">
+                                                    letters, as opposed to using 'Content here, content here',
+                                                    making it look like readable English.
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>-->
+                
+                                    
+                                    </div>
+                                </div>
+                                <hr>
+                                <div class="d-flex flex-start mt-4">
+                                    <img class="rounded-circle shadow-1-strong me-3"
+                                    src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(12).webp" alt="avatar" width="65"
+                                    height="65" />
+                                    <div class="flex-grow-1 flex-shrink-1">
+                                        <div>
+                                            <div class="d-flex justify-content-between align-items-center">
+                                            <p class="mb-1">
+                                                Natalie Smith <span class="small">- 20/20/2020</span>
+                                                <a href="#" class="btn btn-link text-danger delete-comment" data-comment-id="#"> Delete </a>
+                                            </p>
+                                            <a href="#!"><i class="fas fa-reply fa-xs"></i><span class="small"> reply</span></a>
+                                            </div>
+                                            <p class="small mb-0">
+                                            The standard chunk of Lorem Ipsum used since the 1500s is
+                                            reproduced below for those interested. Sections 1.10.32 and
+                                            1.10.33.
+                                            </p>
+                                        </div> 
+                                        <!-- reply comment -->
+                                        <!--<div class="d-flex flex-start mt-4">
+                                            <span class="px-5">Resposta:</span>
+                                            <form action="" class="form-floating">                                
+                                                <div class="form-floating">
+                                                    <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea"></textarea>
+                                                    <label for="floatingTextarea">Comments</label>
+                                                </div>                
+                                                <br>
+                                                <button type="submit" class="btn btn-custom px-5">Enviar</button>
+                                            </form>
+                                        </div> -->                                 
+                                    </div>
+                                </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+                </div>
+            
+            <hr>
+
+            <!-- SHOW AND GO TO CATEGORY PAGE -->
+            <div class="container">
+            <h6 class="list-group-item">Mais posts sobre:
+                <a href="#">Categoria 1</a>
+            </h6>
+            </div>
+         
+          </div>
+            <!-- SIDE DIV WITH OTHER POSTS -->
+            <div class="col-md-4 col-lg-4">
+              <div class="position-sticky" style="top: 2rem;">
+                <div class="p-4 mb-1">
+                  <h4 class="fst-italic index-sections">Postagens recentes:</h4>
+                  <ul class="list-unstyled">
+                      <!-- LOOP THROUGH OTHER POSTS -->
+                    <li class="bg-white py-1 px-1 rounded">
+                      <a class="d-flex flex-column flex-lg-row gap-3 align-items-start align-items-lg-center py-2 link-body-emphasis text-decoration-none"
+                         href="#">
+                        <img src="/img/thaiblog.jpg" alt="Image" class="img-fluid rounded mx-auto d-bloc" width="150px">
+                        <div class="col">
+                          <h6 class="mb-0 text-center">Other post</h6>
+                          <p class="text-center small text-body-secondary">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores, doloribus!</p>
+                        </div>
+                      </a>
+                    </li>
+                      
+                  </ul>
+                </div>
+                  <!-- TO BLOG HOMEPAGE -->
+                  <div class="d-flex justify-content-end mb-4">
+                    <a class="btn btn-secondary text-uppercase text-white" href="#">todos os Posts →</a>
+                  </div>
+                <div class="p-4 mb-3 bg-body-tertiary rounded border-top border-bottom">
+                    <h4 class="fst-italic">Sobre o Autor:</h4>
+                    <div class="text center">
+                      <img src="/img/marcus_1.jpg" class="img-fluid rounded" width="250px">
+                    </div>
+                    <p class="small mb-0">
+                      Nascido na periferia de São Paulo, minha jornada começou aos 22 anos, quando uma oportunidade me levou à Austrália por 5 meses, estendendo-se para 5 anos de estudo, trabalho e descobertas. Explorando mais de 40 países, encontrei minha esposa na Nova Zelândia. Agora, residindo na França, compartilho minha experiência neste blog, incentivando outros a explorarem o mundo com esforço e foco. Com ênfase no visto férias trabalho, este espaço oferece tudo o necessário para iniciar uma jornada transformadora. Junte-se a mim nessa aventura global de superação e descobertas!</p>
+                </div>
+              </div>
+            </div>
+        </div>
+      </div>
+      
+    </article>
+    
+</section>
+    
+    <!-- FOOTER -->
+    <footer class="border-top py-4">
+        <div class="container px-4 px-lg-5 mt-4">
+            <div class="row gx-4 gx-lg-5 d-flex justify-content-center">
+              <div class="col-md-6 col-lg-3 text-center">
+               <a href="index.html" class="d-block">
+                <img src="/img/manual_logo.png" alt="Logo Manual da Gringa" class="img-fluid my-3 py-3">
+                <hr class="w-80">
+               </a>
+              </div>
+                <div class="col-md-6 col-lg-3">
+                  <h4 class="text-center">Manual da Gringa</h4>
+                    <ul class="nav flex-column text-center pb-3 mb-3">
+                        <li class="footer-link"><a href="index.html" class="footer-link px-2 text-body-secondary">Home</a></li>
+                        <li class="footer-link"><a href="blog.html" class="footer-link px-2 text-body-secondary">Blog</a></li>
+                        <li class="footer-link"><a href="login.html" class="footer-link px-2 text-body-secondary">Login</a></li>
+                        <li class="footer-link"><a href="signup.html" class="footer-link px-2 text-body-secondary">Inscrever-se</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                  <h4 class="text-center">Links Úteis</h4>
+                  <ul class="nav flex-column text-center pb-3 mb-3">
+                      <li class="footer-link"><a href="contact.html" class="footer-link px-2 text-body-secondary">Contato</a></li>
+                      <li class="footer-link"><a href="faqs.html" class="footer-link px-2 text-body-secondary">FAQs</a></li>
+                      <li class="footer-link"><a href="about.html" class="footer-link px-2 text-body-secondary">Sobre Nós</a></li>
+                      <li class="footer-link"><a href="privacy.html" class="footer-link px-2 text-body-secondary">Política de Privacidade</a></li>
+                  </ul>
+              </div>
+                <div class="col-md-6 col-lg-3">
+                  <h4 class="text-center">Siga nossas redes</h4>
+                    <ul class="list-inline text-center py-5">
+                        <li class="list-inline-item">
+                            <a href="#!">
+                                <span class="fa-stack fa-lg">
+                                    <i class="fas fa-circle fa-stack-2x"></i>
+                                    <i class="fab fa-github fa-stack-1x fa-inverse"></i>
+                                </span>
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="#!">
+                                <span class="fa-stack fa-lg">
+                                    <i class="fas fa-circle fa-stack-2x"></i>
+                                    <i class="fab fa-instagram fa-stack-1x fa-inverse"></i>
+                                </span>
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="#!">
+                                <span class="fa-stack fa-lg">
+                                    <i class="fas fa-circle fa-stack-2x"></i>
+                                    <i class="fab fa-youtube fa-stack-1x fa-inverse"></i>
+                                </span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="container px-4 px-lg-5">
+                    <div class="text-center pt-3 border-top text-muted fst-italic" id="copyright"></div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JAVA SCRIPT -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="/js/script.js"></script>
+    <script>
+        // jQuery to get the current year and update the copyright notice
+        $(document).ready(function () {
+            var currentYear = new Date().getFullYear();
+            $('#copyright').html('Copyright &copy; Manual da Gringa - ' + currentYear);
+        });
+    </script>
+</body>
+</html>

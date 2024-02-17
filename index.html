@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- page title -->
+    <title>Manual da Gringa</title>
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;500;700&display=swap" rel="stylesheet">
+    <!-- font awesome icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <!-- bootstrap library -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <!-- other css -->
+    <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-custom" id="mainNav">
+        <div class="container-fluid px-5 mx-5">
+            <!-- nav bar logo -->
+            <a class="navbar-brand" href="index.html"><img src="/img/manual_logo.png" width="110px" id="nav-logo"></a>
+        
+            <form class="d-flex px-3 nav-search-form" role="search">
+                <input class="form-control" type="search" placeholder="Busca Rápida" aria-label="Search">
+                <button class="btn btn-custom" type="submit">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </button>
+            </form>
+            
+            <!-- button for small screens -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon">
+                </span>
+            </button>
+            <!-- nav-link list -->
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">            
+                <ul class="navbar-nav d-flex ms-auto">
+                    <li class="nav-item mx-2  my-2">
+                        <a class="nav-link active text-uppercase" href="blog.html">Blog</a>
+                    </li>
+                    <li class="nav-item mx-2  my-2">
+                        <a class="nav-link text-uppercase" href="login.html">Login</a>
+                    </li>
+                    <li class="nav-item mx-2  my-2">
+                        <a class="nav-link text-uppercase" href="signup.html">Sign Up</a>
+                    </li>
+                    <li class="nav-item dropdown mx-2 my-2">
+                        <a class="nav-link dropdown-toggle text-uppercase" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Usuário
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item text-uppercase" href="user.html">Perfil</a></li>
+                            <li><a class="dropdown-item text-uppercase" href="index.html">Sair</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown mx-2  my-2">
+                        <a class="nav-link dropdown-toggle text-uppercase" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Manual da Gringa
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item text-uppercase" href="about.html">Sobre Nós</a></li>
+                            <li><a class="dropdown-item text-uppercase" href="faqs.html">Perguntas Frequentes</a></li>
+                            <li><a class="dropdown-item text-uppercase" href="contact.html">Contato</a></li>
+                            <li><a class="dropdown-item text-uppercase" href="privacy.html">Politica de privacidade</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item mx-2 d-none d-xl-block">
+                        <a href="#!" class="ms-auto">
+                            <span class="fa-stack fa-lg">
+                                <i class="fas fa-circle fa-stack-2x"></i>
+                                <i class="fab fa-github fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+                    <li class="nav-item mx-2 d-none d-xl-block">
+                        <a href="#!" class="ms-auto">
+                            <span class="fa-stack fa-lg">
+                                <i class="fas fa-circle fa-stack-2x"></i>
+                                <i class="fab fa-instagram fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+                </ul>           
+            </div>
+        </div>        
+    </nav>
+    
+    <!-- HEADER -->
+    <header class="py-5 bg-light border-bottom mb-4 big-header" style="background-image: url('/img/GOPR1432.JPG');">
+        <div class="container d-flex justify-content-center mt-5">
+            <div class="text-center my-5">
+                <h1 class="fw-bolder header-h1">Visto Férias Trabalho</h1>
+                <h3 class="mb-0 header-subheading">O mundo agora está ao seu alcance!</h3>
+                <div class="container my-5">
+                    <a href="#">
+                        <i class="fa-solid fa-circle-down text-white" id="header-icon"></i>
+                    </a>
+                </div>
+                
+            </div>
+        </div>
+    </header>
+
+    <!-- FEATURES SECTION -->
+    <section class="section features">
+        <div class="container px-4">
+            <div class="row g-4 py-4 row-cols-1 row-cols-lg-3">
+            <div class="feature col">
+                <div class="container d-flex justify-content-center">
+                    <span class="fa-stack fa-lg mb-2">
+                    <i class="fa-solid fa-passport fa-2xl features-icons"></i>
+                </span>
+                </div>
+                <h4 class="fs-2 text-body-emphasis mt-2 features-text d-flex justify-content-center">Passaporte na mão</h4>
+                <p class="features-text">Paragraph of text beneath the heading to explain the heading. We'll add onto it with another sentence and probably just keep going until we run out of words.</p>
+                <hr class="d-lg-none">
+            </div>
+            <div class="feature col">
+                <div class="container d-flex justify-content-center">
+                    <span class="fa-stack fa-lg mb-2">
+                    <i class="fa-solid fa-suitcase fa-2xl features-icons"></i>
+                </span>
+                </div>
+                <h4 class="fs-2 text-body-emphasis mt-2 features-text d-flex justify-content-center">Malas prontas</h4>
+                <p class="features-text">Paragraph of text beneath the heading to explain the heading. We'll add onto it with another sentence and probably just keep going until we run out of words.</p>
+                <hr class="d-lg-none">
+            </div>
+            <div class="feature col">
+                <div class="container d-flex justify-content-center">
+                <span class="fa-stack fa-lg mb-2">
+                    <i class="fa-solid fa-plane fa-2xl features-icons" ></i>
+                </span>
+                </div>
+                <h4 class="fs-2 text-body-emphasis mt-2 features-text d-flex justify-content-center">Partiu Mundão!</h4>
+                <p class="features-text">Paragraph of text beneath the heading to explain the heading. We'll add onto it with another sentence and probably just keep going until we run out of words.</p>
+            </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- LATEST POST SECTION -->
+    <section class="section latest-post">
+        <!-- quick search form -->
+        <div class="container px-4 py-3 d-flex justify-content-center border-bottom">
+            <form class="my-2 index-page-form" method="POST" action="#">
+                <div class="input-group">
+                <input type="search" class="form-control" placeholder="Busca rápida" aria-label="Busca Rápida" name="busca">
+                <button class="btn btn-custom" type="submit"><i class="fas fa-search"></i></button>
+                </div>
+            </form>
+        </div>
+        <!-- featured post -->
+        <div class="container py-4">
+            <h2 class="mt-3 index-sections">Tem post novo no blog!</h2>
+            <div class="card latest-post-card my-3" style="max-width: 1200px;">
+        
+            <div class="row my-3 mx-3 rounded shadow">
+                <div class="col-md-4 pt-3">
+                <img src="/img/asia-cover.jpg" class="card-img" alt="">
+                </div>
+                <div class="col-md-8">
+                <div class="card-body">
+                    <h6 class="card-category-text">Lorem</h6>
+                    <a href="#" class="">
+                        <h3 class="card-title fst-italic">Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, ipsum!</h3>
+                    </a>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum enim, explicabo eligendi delectus fugit quasi libero laudantium consequatur rem, quos nisi sint a aliquid? Suscipit non ullam ipsum delectus repellat.</p>
+                    <div class="mt-auto d-flex justify-content-end mb-4">
+                        <a href="#" class="btn btn-custom text-uppercase">Continue lendo</a>
+                    </div>
+                </div>
+                </div>
+            </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PARALAX CONTAINER -->
+    <div class="parallax-container">
+        <div class="parallax-image" id="parallax-1"></div>
+        <div class="parallax-text">
+            <h1 id="parallax-text">Partiu mundão !?</h1>
+        </div>
+    </div>
+
+    <!-- OTHER POSTS SECTION -->
+    <section class="section other-posts py-5">
+        <div class="container px-3 px-lg-4">
+            <h2 class="index-sections">Outros assuntos no blog:</h2>
+            <div class="row gx-3 gx-lg-4 my-4 justify-content-center">
+                <!-- First Card -->
+                <div class="col-md-6 col-lg-4 mb-4">
+                    <a href="#" class="index-page-card-link">
+                        <div class="card card-main-posts h-100">
+                            <img src="/img/cambodia_floattingvillage.jpeg" class="card-img img-fluid" alt="Photo 1">
+                            <div class="card-img-overlay">
+                                <h4 class="card-title text-white title-other-posts">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Blanditiis optio debitis ab eius modi. Natus.</h4>
+                            </div>
+                            <div class="card-body d-flex flex-column">     
+                                <p class="small">by <strong>Author</strong> on <strong>11/11/2000</strong></p>    
+                                <hr>                   
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus pariatur nostrum aliquam! Assumenda nisi earum veniam mollitia fugit, ex fugiat dolorum doloremque quod neque odit, minima velit quaerat cum laudantium.
+                                </p>
+                                <hr>
+                                <div class="mt-auto d-flex justify-content-center mb-4">
+                                    <a href="#" class="btn btn-custom">Ler mais <strong>→</strong></a>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <!-- Second Card -->
+                <div class="col-md-6 col-lg-4 mb-4">
+                    <a href="#" class="index-page-card-link">
+                        <div class="card card-main-posts h-100">
+                            <img src="/img/sunrise_angkorwat.jpeg" class="card-img img-fluid" alt="Photo 1">
+                            <div class="card-img-overlay">
+                                <h4 class="card-title text-white title-other-posts">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Blanditiis optio debitis ab eius modi. Natus.</h4>
+                            </div>
+                            <div class="card-body d-flex flex-column">     
+                                <p class="small">by <strong>Author</strong> on <strong>11/11/2000</strong></p>    
+                                <hr>                   
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus pariatur nostrum aliquam! Assumenda nisi earum veniam mollitia fugit, ex fugiat dolorum doloremque quod neque odit, minima velit quaerat cum laudantium.
+                                </p>
+                                <hr>
+                                <div class="mt-auto d-flex justify-content-center mb-4">
+                                    <a href="#" class="btn btn-custom">Ler mais <strong>→</strong></a>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <!-- third Card -->
+                <div class="col-md-6 col-lg-4 mb-4">
+                    <a href="#" class="index-page-card-link">
+                        <div class="card card-main-posts h-100">
+                            <img src="/img/pordosolpuket.jpeg" class="card-img img-fluid" alt="Photo 1">
+                            <div class="card-img-overlay">
+                                <h4 class="card-title text-white title-other-posts">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Blanditiis optio debitis ab eius modi. Natus.</h4>
+                            </div>
+                            <div class="card-body d-flex flex-column">     
+                                <p class="small">by <strong>Author</strong> on <strong>11/11/2000</strong></p>    
+                                <hr>                   
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus pariatur nostrum aliquam! Assumenda nisi earum veniam mollitia fugit, ex fugiat dolorum doloremque quod neque odit, minima velit quaerat cum laudantium.
+                                </p>
+                                <hr>
+                                <div class="mt-auto d-flex justify-content-center mb-4">
+                                    <a href="#" class="btn btn-custom">Ler mais <strong>→</strong></a>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            
+
+        <!-- TO BLOG HOMEPAGE -->
+        <div class="d-flex justify-content-end mb-4">
+            <a class="btn btn-secondary text-uppercase text-white" href="#"><strong>todos os Posts →</strong></a>
+        </div>
+        </div>
+    </section>
+
+    <!-- SUBSCRIBE SECTION -->
+    <section class="section-subscribe py-5">
+        <div class="container px-3 px-lg-4">
+        <div class="row gx-3 gx-lg-4 d-flex align-items-center justify-content-center">
+            <!-- Column 1: Logo and Text -->
+            <div class="col-md-4 text-center">
+            <img src="/img/manual_logo.png" alt="Logo" class="img-fluid" width="300px">
+            <p id="subscribe-text">O mundo agora está ao seu alcance!</p>
+            </div>
+        
+            <!-- Column 2: Newsletter Signup -->
+            <div class="col-md-8 index-page-form py-4 rounded px-4 text-center">
+            <h2 class="index-sections">Se inscreva na nossa newsletter</h2>
+            <p>Receba todas as nossas novidades direto no seu email!</p>
+                
+            <!-- CHECK IF THERE ARE MESSAGES AND SHOW IF SO -->
+            <div class="ajax-subscribe-container">
+                    
+            </div>
+
+                <!-- Newsletter Form -->
+                
+                <form method="POST" class="form-label text-center" action="#">
+                    <div class="form-floating mb-3">
+                        <input type="email" class="form-control" id="floatingInput" placeholder="nome@email.com">
+                        <label for="floatingInput">Seu email</label>
+                    </div>
+                    <button type="submit" class="btn btn-custom mx-5 my-3">Confirmar!</button>
+                </form>
+            </div>
+        </div>
+        </div>
+    </section>
+
+     <!-- PARALAX CONTAINER -->
+     <div class="parallax-container">
+        <div class="parallax-image" id="parallax-2"></div>
+        <div class="parallax-text">
+            <h1 id="parallax-text">Amanhã? Pode ser tarde demais!</h1>
+        </div>
+    </div>
+    
+    <!-- FOOTER -->
+    <footer class="border-top py-4">
+        <div class="container px-4 px-lg-5 mt-4">
+            <div class="row gx-4 gx-lg-5 d-flex justify-content-center">
+              <div class="col-md-6 col-lg-3 text-center">
+               <a href="index.html" class="d-block">
+                <img src="/img/manual_logo.png" alt="Logo Manual da Gringa" class="img-fluid my-3 py-3">
+                <hr class="w-80">
+               </a>
+              </div>
+                <div class="col-md-6 col-lg-3">
+                  <h4 class="text-center">Manual da Gringa</h4>
+                    <ul class="nav flex-column text-center pb-3 mb-3">
+                        <li class="footer-link"><a href="index.html" class="footer-link px-2 text-body-secondary">Home</a></li>
+                        <li class="footer-link"><a href="blog.html" class="footer-link px-2 text-body-secondary">Blog</a></li>
+                        <li class="footer-link"><a href="login.html" class="footer-link px-2 text-body-secondary">Login</a></li>
+                        <li class="footer-link"><a href="signup.html" class="footer-link px-2 text-body-secondary">Inscrever-se</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                  <h4 class="text-center">Links Úteis</h4>
+                  <ul class="nav flex-column text-center pb-3 mb-3">
+                      <li class="footer-link"><a href="contact.html" class="footer-link px-2 text-body-secondary">Contato</a></li>
+                      <li class="footer-link"><a href="faqs.html" class="footer-link px-2 text-body-secondary">FAQs</a></li>
+                      <li class="footer-link"><a href="about.html" class="footer-link px-2 text-body-secondary">Sobre Nós</a></li>
+                      <li class="footer-link"><a href="privacy.html" class="footer-link px-2 text-body-secondary">Política de Privacidade</a></li>
+                  </ul>
+              </div>
+                <div class="col-md-6 col-lg-3">
+                  <h4 class="text-center">Siga nossas redes</h4>
+                    <ul class="list-inline text-center py-5">
+                        <li class="list-inline-item">
+                            <a href="#!">
+                                <span class="fa-stack fa-lg">
+                                    <i class="fas fa-circle fa-stack-2x"></i>
+                                    <i class="fab fa-github fa-stack-1x fa-inverse"></i>
+                                </span>
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="#!">
+                                <span class="fa-stack fa-lg">
+                                    <i class="fas fa-circle fa-stack-2x"></i>
+                                    <i class="fab fa-instagram fa-stack-1x fa-inverse"></i>
+                                </span>
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="#!">
+                                <span class="fa-stack fa-lg">
+                                    <i class="fas fa-circle fa-stack-2x"></i>
+                                    <i class="fab fa-youtube fa-stack-1x fa-inverse"></i>
+                                </span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="container px-4 px-lg-5">
+                    <div class="text-center pt-3 border-top text-muted fst-italic" id="copyright"></div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JAVA SCRIPT -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script type="text/javascript" src="/js/script.js"></script>
+    <script>
+        // jQuery to get the current year and update the copyright notice
+        $(document).ready(function () {
+            var currentYear = new Date().getFullYear();
+            $('#copyright').html('Copyright &copy; Manual da Gringa - ' + currentYear);
+        });
+    </script>
+</body>
+</html>
